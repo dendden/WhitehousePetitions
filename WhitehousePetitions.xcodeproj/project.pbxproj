@@ -13,6 +13,7 @@
 		08BE0DC71DE35EA70011E0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BE0DC51DE35EA70011E0BB /* LaunchScreen.storyboard */; };
 		08BE0DCF1DE379C80011E0BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE0DCE1DE379C80011E0BB /* TableViewController.swift */; };
 		08BE0DD11DE3810B0011E0BB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE0DD01DE3810B0011E0BB /* SwiftyJSON.swift */; };
+		08BE0DD31DE38DC20011E0BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE0DD21DE38DC20011E0BB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		08BE0DC81DE35EA70011E0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BE0DCE1DE379C80011E0BB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		08BE0DD01DE3810B0011E0BB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		08BE0DD21DE38DC20011E0BB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				08BE0DBC1DE35EA70011E0BB /* AppDelegate.swift */,
 				08BE0DCE1DE379C80011E0BB /* TableViewController.swift */,
+				08BE0DD21DE38DC20011E0BB /* DetailViewController.swift */,
 				08BE0DC01DE35EA70011E0BB /* Main.storyboard */,
 				08BE0DC31DE35EA70011E0BB /* Assets.xcassets */,
 				08BE0DC51DE35EA70011E0BB /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				08BE0DD11DE3810B0011E0BB /* SwiftyJSON.swift in Sources */,
 				08BE0DCF1DE379C80011E0BB /* TableViewController.swift in Sources */,
 				08BE0DBD1DE35EA70011E0BB /* AppDelegate.swift in Sources */,
+				08BE0DD31DE38DC20011E0BB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

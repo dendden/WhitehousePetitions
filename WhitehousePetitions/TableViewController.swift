@@ -42,10 +42,6 @@ class TableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return petitions.count
@@ -58,6 +54,12 @@ class TableViewController: UITableViewController {
         cell.detailTextLabel?.text = petition["body"]
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = DetailViewController()
+        detailVC.detailItem = petitions[indexPath.row]
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 
 
